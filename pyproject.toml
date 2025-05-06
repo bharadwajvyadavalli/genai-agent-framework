@@ -1,0 +1,18 @@
+[project]
+name = "genai-agent-framework"
+version = "0.1.0"
+description = "Autonomous GenAI agent with tool & memory implementations"
+authors = [ { name="Your Name", email="you@example.com" } ]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+requests = "*"
+openai = "*"
+serpapi = "*"
+faiss-cpu = "*"
+sentence-transformers = "*"
+fastapi = "*"
+uvicorn = "*"
+streamlit = "*"
+pytest = "*"
+python-dotenv = "*"
